@@ -24,11 +24,12 @@ This project is self-contained and only requires the standard Windows SDK.
 Run the following from your developer command prompt:
 ```cmd
 cl /EHsc main.cpp PEAnalyzer.cpp /Fe:PEAnalyzer.exe
+```
 
-**Usage:**
+## Usage
 ```cmd
 PEAnalyzer.exe "C:\Windows\System32\notepad.exe
-
+```
 
 **Output Example**
 === DOS HEADER ===
@@ -46,5 +47,6 @@ Name      Virtual Size   Virtual Addr   Raw Size
 .text     0x2e000        0x1000         0x2e000      
 .rdata    0x15000        0x2f000        0x15000      
 .data     0x800          0x44000        0x1000
+
 
 
